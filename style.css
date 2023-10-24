@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+}
+.bg-container{
+    height: 100vh;
+}
+.main-container{
+    height: 100vh;
+    background-color: rgb(232, 232, 249);
+    padding: 30px;
+    border: 1px solid red;
+    border-top:0;
+    border-bottom: 0;
+}
+.main-heading{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.sub-heading{
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.span-heading{
+    font-weight: 400;
+}
+.userinput{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+::placeholder{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+.button{
+    margin: 20px 0px;
+    padding: 7px 28px;
+}
+.mytasks{
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.my{
+    font-weight: 400;
+}
+.list{
+    list-style-type: none;
+    padding: 6px;
+}
+.labelcont{
+    width: 100%;
+    background-color: rgb(170, 212, 242);
+    border: 6px solid rgb(58, 77, 244);
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    margin: 10px;
+    border-radius: 10px;
+    color: #000000;
+}
+.label{
+    width: 88%;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+.checkbox{
+    width: 20px;
+}
+
+.iconcont{
+    width: 12%;
+    padding: 10px;
+    cursor: pointer;
+}
+.icon{
+    font-size: 20px;
+    color: #ad0303;
+}
+.checked{
+    text-decoration: line-through;
+}
